@@ -1,5 +1,4 @@
-import './App.css';
-import Product from './pages/Product';
+import MenuMakanan from './pages/MenuMakanan';
 import Contact from './pages/Contact';
 import MainMenu from './pages/Main';
 import AboutUs from './pages/AboutUs';
@@ -11,9 +10,9 @@ function App() {
     <div className="App">
       <Header/>
       <MainMenu/>
-      <Product/>
-      <Contact/>
+      <MenuMakanan/>
       <AboutUs/>
+      <Contact/>
       <Footer/>
     </div>
   );

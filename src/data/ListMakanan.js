@@ -1,15 +1,16 @@
 import React, { Component } from "react";
 
 class ListMakanan extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      dataList: this.props.list,
+    };
+  }
   render() {
     return (
       <div>
-        <h1>
-          <center>Selamat Datang di Warung Nusantara</center>
-        </h1>
-        <center>
-          <img src={this.props.linkGambar} alt="Masakan Nusantara" width="600" />
-        </center>
+        <img src={this.state.dataList} alt="Product Makanan" width="150" />
       </div>
     );
   }
