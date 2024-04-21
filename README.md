@@ -1,3 +1,12 @@
+#Tujuan :
+
+- Memahami cara penulisan function component.
+- Memahami cara penulisan export dan import component.
+- Memahami cara penggunaan props pada class component.
+- Memahami cara penggunaan props pada function component.
+- Memahami cara penulisan state.
+- Memahami cara penggunaan state dan props.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
