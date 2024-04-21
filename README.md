@@ -1,4 +1,4 @@
-#Tujuan :
+# Tujuan :
 
 - Memahami cara penulisan function component.
 - Memahami cara penulisan export dan import component.
